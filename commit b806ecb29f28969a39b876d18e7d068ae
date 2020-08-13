@@ -1,0 +1,33 @@
+commit b806ecb29f28969a39b876d18e7d068aed089566 (HEAD -> master)
+Author: Hafez <Hafezjokar@gmail.com>
+Date:   Thu Aug 13 09:32:53 2020 +0200
+
+    the last one
+
+commit 33ff80a91db9ee330ebec2bb9a39b40d6062288e
+Author: Hafez <Hafezjokar@gmail.com>
+Date:   Thu Aug 13 09:24:55 2020 +0200
+
+    MyThirdCommit
+
+commit 39e0e404448f612e3114fd6a3bd7b61a2a1fa635
+Author: Hafez <Hafezjokar@gmail.com>
+Date:   Thu Aug 13 09:23:36 2020 +0200
+
+    MySecondCommitt
+
+commit 674a39719b0b18477f4a187f57fd7117f62ff398
+Author: Hafez <Hafezjokar@gmail.com>
+Date:   Thu Aug 13 09:19:52 2020 +0200
+
+    MyFirstCommit
+amirhafezjokar@Hafezs-Air web1 % 
+
+
+
+amirhafezjokar@Hafezs-Air web1 % git log --oneline
+d965ab0 (HEAD -> master) h5
+3117389 HELLO
+3b4dfd1 add h2
+674a397 MyFirstCommit
+amirhafezjokar@Hafezs-Air web1 % 
