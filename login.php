@@ -2,6 +2,7 @@
 $db = mysqli_connect('localhost', 'root', '');
 mysqli_select_db($db, 'db1');
 mysqli_query($db, "SET NAMES 'UTF8'");
+// fix bug
 $username = htmlentities(addslashes($_POST('username')), ENT_QUOTES, 'UTF-8');
 $password = htmlentities(addslashes($_POST('password')), ENT_QUOTES, 'UTF-8');
 $q = "SELECT * FROM useres WHERE username = '$username'
